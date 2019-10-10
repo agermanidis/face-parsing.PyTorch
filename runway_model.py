@@ -42,7 +42,11 @@ label_to_id = {
     "hat": 18
 }
 
-label_to_color = {'background': [0, 0, 0]}
+label_to_color = {"background": [0, 0, 0], "hair": [0, 0, 255], "skin": [255, 0, 0], "l_brow": [150, 30, 150],
+                  "r_brow": [255, 65, 255], "l_eye": [150, 80, 0], "r_eye": [170, 120, 65], "nose": [125, 125, 125],
+                  "u_lip": [255, 255, 0], "l_lip": [0, 255, 255], "mouth": [255, 150, 0], "neck": [255, 225, 120],
+                  "r_ear": [255, 125, 125], "l_ear": [200, 100, 100], "cloth": [0, 255, 0], "hat": [0, 150, 80],
+                  "ear_r": [215, 175, 125], "eye_g": [220, 180, 210], "neck_l": [125, 125, 255]}
 
 to_tensor = transforms.Compose([
     transforms.ToTensor(),
